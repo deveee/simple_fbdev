@@ -1,0 +1,6 @@
+Simple fbdev
+
+
+Simple demo that shows how to draw directly to framebuffer on Linux/Android.
+
+Note that on Android you need access to /dev/graphics/fb0 to make it working.
