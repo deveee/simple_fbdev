@@ -1,5 +1,3 @@
-#!/bin/sh
-
 APP_NAME="simple_fbdev"
 SOURCES="main.cpp device.cpp squares_demo.cpp"
 

@@ -158,7 +158,7 @@ bool Device::init()
         m_backbuffer = new uint8_t[m_finfo.smem_len];
     }
 
-    int m_kdfd = open("/dev/tty", O_WRONLY);
+    m_kdfd = open("/dev/tty", O_WRONLY);
     
     if (m_kdfd >= 0) 
     {
